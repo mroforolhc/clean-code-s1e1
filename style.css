@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -79,7 +79,7 @@ button{
 }
 
 /* Heading */
-.title {
+.todo__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -112,7 +112,7 @@ button{
   margin-bottom: 1em;
 }
 
-#top .title {
+#top .todo__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -172,11 +172,11 @@ button{
   display: none;
 }
 
-.edit-mode .item__input {
+.todo__item_edit .item__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .item__label {
+.todo__item_edit .item__label {
   display: none;
 }

@@ -8,21 +8,21 @@
 <body class="body">
   <header class="header">
     <img class="header__img" alt="the Eisenhower matrix" src="./eisenhower-matrix.jpg">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </header>
-  <main class="main">
+  <main class="main todo">
     <div id="top">
-      <label class="title" for="new-task">Add Item</label>
+      <label class="todo__title" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="input task" type="text">
         <button class="button">Add</button>
       </div>
     </div>
-    <h3 class="title">Todo</h3>
+    <h3 class="todo__title">Todo</h3>
     <ul id="incomplete-tasks">
-      <li class="item">
+      <li class="todo__item item">
         <input class="item__checkbox" type="checkbox">
         <label class="item__label task">Pay Bills</label>
         <input type="text" class="input item__input task">
@@ -31,8 +31,8 @@
           <img class="delete__img" alt="remove image" src="./remove.svg">
         </button>
       </li>
-      <li class="item edit-mode">
-        <input type="checkbox" class="item__checkbox">
+      <li class="item todo__item todo__item_edit">
+        <input class="item__checkbox" type="checkbox">
         <label class="item__label task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="input item__input task">
         <button class="button edit">Save</button>
@@ -41,9 +41,9 @@
         </button>
       </li>
     </ul>
-    <h3 class="title">Completed</h3>
+    <h3 class="todo__title">Completed</h3>
     <ul id="completed-tasks">
-      <li class="item">
+      <li class="item todo__item">
         <input type="checkbox" class="item__checkbox" checked>
         <label class="item__label task">See the Doctor</label>
         <input type="text" class="input item__input task">
